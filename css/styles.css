@@ -448,11 +448,12 @@ body {
 .footer-container {
     /* display: block; */
     display: flex;
-    gap: 120px;
+    align-items: baseline;
 }
 
 .footer-logo-block {
     display: block;
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -482,9 +483,7 @@ body {
 
 .social-header-text {
     color: #FFF;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.02em;
