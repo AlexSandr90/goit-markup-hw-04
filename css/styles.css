@@ -180,6 +180,7 @@ body {
 .superman-section {
     max-width: 1440px;
     padding: 188px 0;
+    margin: 0 auto;
     background-color: #2E2F42;
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
@@ -259,10 +260,10 @@ body {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-    
+
 }
-.principles-icon {
-}
+
+.principles-icon {}
 
 .main-principles-item-header {
     font-size: 20px;
@@ -338,6 +339,34 @@ body {
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.social-section {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 232px;
+    margin: auto;
+}
+
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.social-item-img {
+    width: 12px;
+    height: 12px;
+
+}
+
+.social-item-link {
 }
 
 /*? ========== Portfolio Section ========== */
