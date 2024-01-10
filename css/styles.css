@@ -368,13 +368,10 @@ body {
 
 .social-item-link:hover,
 .social-item-link:focus {
-    background-color: #404bbf; 
+    background-color: #404bbf;
 }
 
-.social-item-img {
-    width: 16px;
-    height: 16px;
-}
+.social-item-img {}
 
 
 
